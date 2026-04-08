@@ -1,4 +1,4 @@
-# Python-generated files
+# Python
 __pycache__/
 *.py[oc]
 build/
@@ -8,4 +8,20 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment — never commit secrets
 .env
+
+# Temp files created during audits
+temp_audit_video.mp4
+temp_video.mp4
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# uv
+.python-version
